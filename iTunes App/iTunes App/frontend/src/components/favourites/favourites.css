@@ -1,0 +1,71 @@
+.content-area {
+  height: 90vh;
+  width: 75vw;
+  background: #000;
+  border-radius: 30px;
+  padding: 1.5em 2em;
+}
+
+.main-row {
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+}
+
+.full-width {
+  width: 100%;
+}
+
+.title h3,
+.back-btn a,
+.empty {
+  color: #d5d1d1;
+}
+
+.back.btn a {
+  text-decoration: none;
+}
+
+.empty {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+}
+
+/* Style the container with all the favourites if 'favourites' is not empty */
+.fav-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+ }
+
+ .favourites {
+    height: 90%;
+    overflow-y: auto;
+    padding-right: 1em;
+ }
+
+.favourites::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  .favourites::-webkit-scrollbar-track {
+    border-radius: 10px;
+    background: #c9cacc;
+  }
+  
+  .favourites::-webkit-scrollbar-track:hover {
+    background: #78797a;
+  }
+  
+  .favourites::-webkit-scrollbar-thumb {
+    background: #198754; 
+    border-radius: 10px;
+  }
+  
+  .favourites::-webkit-scrollbar-thumb:hover {
+    background: #1fa567; 
+  }

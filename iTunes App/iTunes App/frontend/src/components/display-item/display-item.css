@@ -1,0 +1,59 @@
+.output-item {
+  display: flex;
+  align-items: center;
+  width: 45%;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 5px 5px 0 #00000030;
+  border: 1px solid #fff;
+  gap: 15px;
+}
+
+.output-item .img-text {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #00000030;
+}
+
+.output-item img {
+  border-radius: 35%;
+  height: 80px;
+  width: 80px;
+}
+
+.output-item .item-info {
+  width: 100%;
+  text-align: left;
+  font-size: 14px;
+}
+
+.output-item .item-info span {
+  font-weight: bold;
+}
+
+.output-item .btns {
+  width: 130px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.output-item .heart-btn button {
+  background-color: transparent;
+  border: none;
+  font-size: 25px;
+  color: #00000035;
+}
+
+.output-item .heart-btn .clicked {
+  color: red;
+}
+
+.output-item .heart-btn button:hover {
+  color: #c40000;
+  background-color: transparent;
+}

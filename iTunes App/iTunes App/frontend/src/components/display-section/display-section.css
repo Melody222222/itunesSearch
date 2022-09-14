@@ -1,0 +1,44 @@
+.align-center {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+.error-text,
+.welcome-text {
+  height: 300px;
+  font-size: 1.5em;
+  color: #d5d1d1;
+}
+
+/* Style the outputted item */
+.output-items {
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.display-container{
+    overflow-y: auto;
+    height: calc(100vh - 210px);
+}
+
+.display-container::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  .display-container::-webkit-scrollbar-track {
+    border-radius: 10px;
+    background: #c9cacc;
+  }
+  
+  .display-container::-webkit-scrollbar-track:hover {
+    background: #78797a;
+  }
+  
+  .display-container::-webkit-scrollbar-thumb {
+    background: #198754; 
+    border-radius: 10px;
+  }
+  
+  .display-container::-webkit-scrollbar-thumb:hover {
+    background: #1fa567; 
+  }

@@ -1,0 +1,15 @@
+.main-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 10%;
+}
+
+.full-width{
+    width: 100%;
+}
+.title h3 {
+    color: #d5d1d1;
+}

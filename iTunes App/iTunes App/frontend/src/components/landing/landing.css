@@ -1,0 +1,7 @@
+.content-area {
+    height: 90vh;
+    width: 75vw;
+    background: #000;
+    border-radius: 30px;
+    padding: 1.5em 2em;
+}
